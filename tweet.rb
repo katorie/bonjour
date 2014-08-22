@@ -35,7 +35,7 @@ class Tweet
     "いかがおすごしですか",
     "Je suis trés timide.",
     "今日のごはんはなにかなー",
-    "Il reste 10 jour.",
+    "Il reste 10 jours.",
     "À bientôt !",
     "Il camoufle le probleme.",
     "hi",
