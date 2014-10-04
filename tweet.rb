@@ -16,7 +16,7 @@ class Tweet
     @text = [
     "bonjour !",
     "今日もいい日だ",
-    "ノシ",
+    "J'ai du mal à imaginer.",
     "おやつの時間",
     "なにしてるの？",
     "T’exagères, quand même !",
@@ -41,7 +41,7 @@ class Tweet
     "hi",
     "Tu m'empêche de dormir.",
     "げんき？",
-    "À tout à l'heurei.",
+    "À tout à l'heure.",
     "Éloge de la fuite.",
     "どないしたん",
     "Il veut prendre sa revanche.",
