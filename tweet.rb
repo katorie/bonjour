@@ -11,7 +11,6 @@ if RACK_ENV == 'development'
 end
 
 class Tweet
-
   def initialize
     @text = [
       "bonjour !",
