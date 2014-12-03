@@ -57,7 +57,7 @@ class Tweet
   end
 
   def random_tweet
-    tweet = @text[rand(@text.length)]
+    tweet = @text.sample
     update(tweet)
   end
 
