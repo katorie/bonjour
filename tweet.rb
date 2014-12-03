@@ -14,38 +14,38 @@ class Tweet
 
   def initialize
     @text = [
-    "bonjour !",
-    "今日もいい日だ",
-    "J'ai du mal à imaginer.",
-    "おやつの時間",
-    "なにしてるの？",
-    "T’exagères, quand même !",
-    "Je m'ennuie.",
-    "une petite trentaine",
-    "かまへん、かまへん",
-    "Comment allez-vous ?",
-    "ぼんじゅー",
-    "C'est mignon !",
-    "C'est fascinant !",
-    "Ce n'est pas péjoratif.",
-    "ほんまやなー",
-    "ﾃｯﾃﾚｰ!",
-    "Il m'a confie le chocolat.",
-    "une petite distance",
-    "いかがおすごしですか",
-    "Je suis trés timide.",
-    "今日のごはんはなにかなー",
-    "Il reste 10 jours.",
-    "À bientôt !",
-    "Il camoufle le probleme.",
-    "hi",
-    "Tu m'empêche de dormir.",
-    "げんき？",
-    "À tout à l'heure.",
-    "Éloge de la fuite.",
-    "どないしたん",
-    "Il veut prendre sa revanche.",
-    "ぼっとだよ",
+      "bonjour !",
+      "今日もいい日だ",
+      "J'ai du mal à imaginer.",
+      "おやつの時間",
+      "なにしてるの？",
+      "T’exagères, quand même !",
+      "Je m'ennuie.",
+      "une petite trentaine",
+      "かまへん、かまへん",
+      "Comment allez-vous ?",
+      "ぼんじゅー",
+      "C'est mignon !",
+      "C'est fascinant !",
+      "Ce n'est pas péjoratif.",
+      "ほんまやなー",
+      "ﾃｯﾃﾚｰ!",
+      "Il m'a confie le chocolat.",
+      "une petite distance",
+      "いかがおすごしですか",
+      "Je suis trés timide.",
+      "今日のごはんはなにかなー",
+      "Il reste 10 jours.",
+      "À bientôt !",
+      "Il camoufle le probleme.",
+      "hi",
+      "Tu m'empêche de dormir.",
+      "げんき？",
+      "À tout à l'heure.",
+      "Éloge de la fuite.",
+      "どないしたん",
+      "Il veut prendre sa revanche.",
+      "ぼっとだよ",
     ]
 
 
@@ -68,9 +68,9 @@ class Tweet
   end
 
   private
+
   def update(tweet)
     return nil unless tweet
     @cliant.update(tweet.chomp)
   end
-
 end
