@@ -6,3 +6,4 @@ gem 'sinatra'
 gem 'twitter'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'rake'
+gem 'puma'
